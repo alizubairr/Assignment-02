@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* This is the common style  */
+body{
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+/* This is the common style  */
+/* Here start the header section's style  */
+.Head-container {
+    width: 1140px;
+    margin: auto;
+}
+
+nav {margin-top: 25px;}
+.Top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo h3 {font-size: 24px;font-weight: 700;color: #3A3A3A;cursor: pointer;}
+
+.menu-icon {
+    display: flex;
+    width: 460px;
+}
+
+.menu-bar ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar ul li {
+    margin-right: 34px;
+}
+.top-bar-icon {
+    width: 49px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.top-bar-icon i:first-child {
+    color: #000000;
+    font-size: 24px;
+    transition: .2s;
+}
+
+.top-bar-icon i:last-child {
+    font-size: 30px;
+    color: #000000;
+    transition: .2s;
+}
+
+.top-bar-icon i {
+    margin-right: 34px;
+}
+.menu-bar ul li a:before {
+    content: "";
+    border: 1px solid #E02C6D;
+    display: block;
+    top: 27px;
+    position: relative;
+    visibility: hidden;
+    width: 0%;
+    transition: .3s;
+}
+.menu-bar ul li:hover a:before{
+    visibility: visible;
+    width: 100%;
+}
+.top-bar-icon i:hover {
+    color: #E02C6D;
+    cursor: pointer;
+}
+/* Here start the introducttory part */
+.introductory-banner {
+    display: flex;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url("images/Circle-design.svg");
+    background-position-y: 40px;
+}
+
+.text-details {
+    width: 50%;
+}
+
+.banner-image {
+    width: 50%;
+}
+.banner-image img{
+    width: 82%;
+    position: relative;
+    top: 31px;
+    left: 102px;
+    margin-bottom: 83px;
+}
+.text-details h1 {
+    top: 105px;
+    position: relative;
+    font-size: 52px;
+    font-weight: 700;
+}
+.text-details h1 span {
+    color: #E02C6D;
+}
+
+button#preebookbtn {
+    position: relative;
+    top: 150px;
+    color: white;
+    width: 210px;
+    background-color: #E02C6D;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.text-details p {
+    position: relative;
+    top: 112px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button#preebookbtn i {
+    margin-left: 8px;
+}
+button#preebookbtn a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+button#preebookbtn:hover {
+    background-color: #a92f5b;
+    cursor: pointer;
+}
+ /* This is banner animation  */
+/* @keyframes sliding{
+    0%{
+        top: 10px;
+    }
+    100%{
+        top: 20px;
+    }
+ }
+div#banner-animation{
+    position: relative;
+    animation: sliding 1s ease 0s infinite alternate;
+    
+
+} */
+ /* This is banner animation  */
+/*--- Here end the introducttory part ---*/
+/*------ Here end the header section's style  -------*/
+/*------ Here start sponsor's style  -------*/
+.sponsors-container {
+    width: 1000px;
+    margin: auto;
+}
+
+.sponsor {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 69px;
+    border-top: 1px solid #ededed;
+    padding: 25px;
+    border-bottom: 1px solid #ededed;
+}
+
+.sponsor img {
+    max-width: 100%;
+}
+/*------ Here start sponsor's style  -------*/
